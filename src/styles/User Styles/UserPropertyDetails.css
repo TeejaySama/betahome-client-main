@@ -1,0 +1,90 @@
+/* .UserPropertyDetailsContainer {
+    padding: 5rem 5.36rem 5rem 6.16rem;
+} */
+
+.naira {
+  text-decoration: line-through;
+  text-decoration-style: double !important;
+}
+
+.UserPropertyDetailsExtraImg button {
+  bottom: 1rem;
+  right: 1rem;
+}
+.UserPropertyDetailsExtraImg img {
+  height: 50vh;
+}
+.UserPropertyDetailList {
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--grey);
+}
+
+.UserPropertyDetailsFeatures ul {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.UserPropertyDetailsFeatures li {
+  list-style-type: disc;
+}
+
+.UserPropertyDetailsInfo {
+  width: 75%;
+}
+
+.UserPropertyDetPrice {
+  font-size: 1.6rem;
+}
+
+.UserPropertyDetailsFormWrapper {
+  width: 25%;
+}
+
+.UserPropertyDetailsOverview p {
+  text-align: justify;
+}
+
+.UserPropertyRelatedCard {
+  width: 24.54625rem;
+}
+
+.UserPropDetBottom {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+form input:focus:not([type="checkbox"]),
+form text-area {
+  outline: 2px solid var(--primaryGreen) !important;
+}
+
+@media screen and (max-width: 900px) {
+  .UserPropertyDetailsInfo,
+  .UserPropertyDetailsFormWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .UserPropertyDetailsFeatures ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .UserPropertyDetailLocation {
+    width: 100% !important;
+  }
+
+  .UserPropertyDetailLocation img {
+    width: 100%;
+  }
+
+  .UserPropertyDetPrice {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .UserPropertyDetailsFeatures ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
